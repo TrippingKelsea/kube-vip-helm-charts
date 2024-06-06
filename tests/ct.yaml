@@ -1,4 +1,4 @@
 remote: upstream
-target-branch: main
+target-branch: kelsea-mt
 chart-dirs:
   - charts
