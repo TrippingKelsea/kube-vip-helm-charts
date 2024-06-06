@@ -9,6 +9,7 @@ image:
 
 config:
   address: ""
+  prometheus_http_server: ":2112"
 
 # Check https://kube-vip.io/docs/installation/flags/
 env:
