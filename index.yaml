@@ -28,4 +28,18 @@ entries:
     urls:
     - https://github.com/TrippingKelsea/kube-vip-helm-charts/releases/download/kube-vip-cloud-provider-0.8.0/kube-vip-cloud-provider-0.8.0.tgz
     version: 0.8.0
-generated: "2024-06-06T16:42:59.329026963Z"
+  kube-vip-mt:
+  - apiVersion: v2
+    appVersion: v0.8.0
+    created: "2024-06-06T16:46:29.757994217Z"
+    description: A Helm chart for kube-vip Multi Tenant
+    digest: 3caef56305a0ca1692c2704487a38affbc72bc77c95d8c4327f8910d4fac7594
+    icon: https://github.com/kube-vip/kube-vip/raw/main/kube-vip.png
+    maintainers:
+    - name: kube-vip
+    name: kube-vip-mt
+    type: application
+    urls:
+    - https://github.com/TrippingKelsea/kube-vip-helm-charts/releases/download/kube-vip-mt-0.8.0/kube-vip-mt-0.8.0.tgz
+    version: 0.8.0
+generated: "2024-06-06T16:46:29.757999627Z"
