@@ -18,6 +18,8 @@ spec:
       containers:
       - args:
           - manager
+          - --prometheusHTTPServer
+          - ""
         env:
           - name: svc_namespace
             value: {{ .Release.Namespace }}
