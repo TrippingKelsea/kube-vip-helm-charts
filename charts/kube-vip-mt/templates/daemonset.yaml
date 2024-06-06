@@ -19,7 +19,7 @@ spec:
       - args:
           - manager
           - --prometheusHTTPServer
-          - {{ .Values.config.prometheus_http_server | default ":2112"}}
+          - {{ .Values.env.prometheus_server | default ":2112"}}
         env:
           - name: svc_namespace
             value: {{ .Release.Namespace }}
